@@ -7,6 +7,13 @@ const optionProps = [
   'dragMode',
   'aspectRatio',
   'data',
+  'ready',
+  'cropstart',
+  'cropmove',
+  'cropend',
+  'crop',
+  'zoom',
+
   // unchangeable props start from here
   'viewMode',
   'preview',
@@ -36,16 +43,10 @@ const optionProps = [
   'minCanvasWidth',
   'minCanvasHeight',
   'minCropBoxWidth',
-  'minCropBoxHeight',
-  'ready',
-  'cropstart',
-  'cropmove',
-  'cropend',
-  'crop',
-  'zoom',
+  'minCropBoxHeight'
 ];
 
-const unchangeableProps = optionProps.slice(3);
+const unchangeableProps = optionProps.slice(9);
 
 class ReactCropper extends Component {
 
