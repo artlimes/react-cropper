@@ -32,7 +32,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 var optionProps = ['dragMode', 'aspectRatio', 'data', 'ready', 'cropstart', 'cropmove', 'cropend', 'crop', 'zoom', 'viewMode', 'preview', 'responsive', 'restore', 'checkCrossOrigin', 'checkOrientation', 'modal', 'guides', 'center', 'highlight', 'background', 'autoCrop', 'autoCropArea', 'movable', 'rotatable', 'scalable', 'zoomable', 'zoomOnTouch', 'zoomOnWheel', 'wheelZoomRation', 'cropBoxMovable', 'cropBoxResizable', 'toggleDragModeOnDblclick', 'minContainerWidth', 'minContainerHeight', 'minCanvasWidth', 'minCanvasHeight', 'minCropBoxWidth', 'minCropBoxHeight'];
 
-var unchangeableProps = optionProps;
+var unchangeableProps = [];
 
 var ReactCropper = function (_Component) {
   _inherits(ReactCropper, _Component);

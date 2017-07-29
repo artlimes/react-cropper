@@ -44,7 +44,7 @@ const optionProps = [
   'minCropBoxHeight'
 ];
 
-const unchangeableProps = optionProps;
+const unchangeableProps = [];
 
 class ReactCropper extends Component {
 
